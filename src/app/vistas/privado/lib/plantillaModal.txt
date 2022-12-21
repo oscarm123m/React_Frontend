@@ -1,0 +1,27 @@
+ <Modal
+                            show={show}
+                            onHide={handleClose}
+                            backdrop="static" keyboard={false}>
+
+                            <Modal.Header closeButton>
+                                <Modal.Title>XXXXX</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
+                                XXXXXX
+                                <br />
+                                <strong>YYYYYYYYYY</strong>
+                                <br />
+                            </Modal.Body>
+                            <Modal.Footer>
+                                <Button
+                                    variant="secondary"
+                                    onClick={(e) => {
+                                        setShow(false);
+                                    }} >
+                                    Cancelar
+                                </Button>
+                                <Button variant="danger">
+                                    Eliminar
+                                </Button>
+                            </Modal.Footer>
+                        </Modal>
